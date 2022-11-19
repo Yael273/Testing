@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(246, 237, 225);
+    text-align: center;
+    background-image: url(/img/flowers3.jpg);
+    background-position: center;
+    /* background-size: 200px; */
+    /* margin-top: -150px; */
+}
+/* title{
+    background-color: hotpink;
+} */
+
+h1 {
+    font-family: myFirstFont;
+    color: rgb(247, 229, 205);
+    font-size: 160px;
+    margin-top: 500px;
+    transition-duration: 0.4s;
+}
+
+/* h1:hover {
+    color: hotpink;
+} */
+
+p {
+    color: rgb(247, 229, 205);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -70px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+/* .par{
+    margin-left: 400px;
+} */
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(71, 245, 129);
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: rgb(251, 19, 216);
+    opacity: 1;
+}
+.time{
+    color: rgb(247, 229, 205);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: -200px;
+    /* background-color: hotpink; */
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 20px;
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/font/MarginDemo-7B6ZE.otf);
+}
